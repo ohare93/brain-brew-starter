@@ -43,9 +43,11 @@ Alternatively, create a card in Anki and sync the changes back through into the 
 
 ### ReadMe Todo
 1. GlobalConfig File "brain_brew_config.yaml"
+    1. Specifying the config file via the command line
 1. Media files
 1. Csv specifics
     1. Derivatives specifics
     1. Required columns guid and tags
 1. Change control - what should be in it? General answer: whatever you personally want!
 1. Personal Fields (soon:tm:)
+1. Non-Existant Files Cannot Be References! If you want to make a new DeckPart make a copy of an existing one and write over it, or make a blank json file with `{}` as the contents.
