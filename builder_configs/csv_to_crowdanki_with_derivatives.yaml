@@ -74,7 +74,7 @@ tasks:
       notes: words_with_derivatives.json
 
       # CrowdAnki Export config
-      file: crowdanki_exports/General/  # CrowdAnkiExport folder
+      file: crowdanki_exports/General-With-Derivatives/  # CrowdAnkiExport folder
       note_sort_order: [note_model_name, guid]
       media: yes
       useless_note_keys: # Useless parts of a CrowdAnkiExport

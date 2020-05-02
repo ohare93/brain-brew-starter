@@ -1,0 +1,48 @@
+
+# Run below tasks in reverse? Can also be set to true with "--reversed"
+# If true it runs the opposite tasks in reverse order
+# E.g: [csv_collection_to_deck_parts, deck_parts_to_crowdanki]
+#      becomes
+#      [crowdanki_to_deck_parts, deck_parts_to_csv_collection]
+reverse: no
+
+# Build tasks to run
+tasks:
+  # Convert a collection of csvs into Deck Parts
+  - csv_collection_to_deck_parts:
+      notes: words.json
+
+      # List of Note Models
+      # How each Note Model used is built up from the csv data
+      note_model_mappings:
+        - note_model: LL Word
+          csv_columns_to_fields:  # Map of csv column to note model field
+            guid: guid
+            tags: tags
+
+            english: English
+            danish: Word
+            danish audio: Pronunciation (Recording and/or IPA)
+            picture: Picture
+
+      # List of csvs to use
+      csv_file_mappings:
+        - csv: csvs/words.csv
+          note_model: LL Word
+          sort_by_columns: [english]  # Optional
+          reverse_sort: no  # Optional
+
+  # Convert Deck Parts into a CrowdAnki Export
+  - deck_parts_to_crowdanki:
+      # Looks in the global config deck part locations for the following files
+      headers: default.json
+      notes: words.json
+
+      # CrowdAnki Export config
+      file: crowdanki_exports/General/  # CrowdAnkiExport folder
+      note_sort_order: [note_model_name, guid]
+      media: yes
+      useless_note_keys: # Useless parts of a CrowdAnkiExport
+        __type__: Note
+        data:
+        flags: 0

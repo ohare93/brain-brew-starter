@@ -1,0 +1,733 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b23f90cc-8c5b-11ea-b50b-9cb6d098820d",
+    "deck_config_uuid": "b23f90cd-8c5b-11ea-b50b-9cb6d098820d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "b23f90cd-8c5b-11ea-b50b-9cb6d098820d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 4,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "adorable-animal-blur-cat-617278.jpg",
+        "adorable-animal-canine-cute-220938.jpg",
+        "adult-bowl-brunette-eat-1153371.jpg",
+        "alone-bed-bedroom-blur-271897.jpg",
+        "animal-animal-photography-close-up-countryside-1996333.jpg",
+        "animal-avian-beak-bird-416179.jpg",
+        "animal-cute-little-mouse-301448.jpg",
+        "farm-farmer-pink-ears-110820.jpg",
+        "man-holding-book-2781195.jpg",
+        "pexels-photo-128756.jpeg",
+        "pexels-photo-422218.jpeg",
+        "pronunciation_da_banan.mp3",
+        "pronunciation_da_du.mp3",
+        "pronunciation_da_lære.mp3",
+        "top-view-photo-of-food-dessert-1099680.jpg",
+        "woman-drinking-water-1458671.jpg",
+        "woman-in-black-long-sleeved-shirt-905947.jpg",
+        "woman-working-girl-sitting-133021.jpg",
+        "women-s-white-top-and-orange-floral-skirt-823694.jpg",
+        "yellow-banana-on-hand-2280926.jpg"
+    ],
+    "name": "General",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n\n.word {\n font-size:1.5em;\n}\n\n.pronunciation{\n color:blue;\n}\n",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "English",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Word",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Picture",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 6,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Pronunciation (Recording and/or IPA)",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Plural",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Indefinite Plural",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Definite Plural",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "LL Noun",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "LL::Grammar::Noun"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Comprehension",
+                    "ord": 0,
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Production",
+                    "ord": 1,
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Spelling",
+                    "ord": 2,
+                    "qfmt": "{{#Word}}\n\t<br>Spell this word:<br>\n\n\t<span class=\"word\">{{type:Word}}</span>\n\n\t<br>{{Picture}}\n{{/Word}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3cc64dd6-e410-11e9-960e-d8cb8ac9abf0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.word {\n font-size:1.5em;\n}\n\n.pronunciation{\n color:blue;\n}\n\n.smallimage img {\n max-width:15em;\n box-shadow: none;\n}\n\n.important {\n color:yellow;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "English",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Word",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Picture",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 6,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Pronunciation (Recording and/or IPA)",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Form Present",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Form Past",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Form Perfect Present",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "LL Verb",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                [
+                    3,
+                    "all",
+                    [
+                        1,
+                        4
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Comprehension",
+                    "ord": 0,
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{text:Word}}</span>\n{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Production",
+                    "ord": 1,
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Spelling",
+                    "ord": 2,
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}"
+                },
+                {
+                    "afmt": "<div class=smallimage>{{Picture}}</div>\nInfinitive: <span class=\"word\">{{Word}}</span><br>\nPresent: <span class=\"word important\">{{Form Present}}</span><br>\nPast: <span class=\"word important\">{{Form Past}}</span><br>\nPast Perfect: <span class=\"word important\">{{Form Perfect Present}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Conjugation",
+                    "ord": 3,
+                    "qfmt": "{{#Word}}{{#Form Present}}\n\t<div class=smallimage>{{Picture}}</div>\n\tInfinitive: <span class=\"word\">{{Word}}</span><br>\n\tPresent: <span class=\"word important\">___</span><br>\n\tPast: <span class=\"word important\">___</span><br>\n\tPast Perfect: <span class=\"word important\">___</span>\n{{/Form Present}}{{/Word}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.word {\n font-size:1.5em;\n}\n\n.pronunciation{\n color:blue;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "English",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Word",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Picture",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 6,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Pronunciation (Recording and/or IPA)",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "LL Word",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                [
+                    2,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "LL::Grammar::Preposition",
+                "Meta::InProgress"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Comprehension",
+                    "ord": 0,
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Production",
+                    "ord": 1,
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Spelling",
+                    "ord": 2,
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "bird",
+                "en fugl",
+                "<img src=\"animal-avian-beak-bird-416179.jpg\" class=\"\" style=\"\">",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Fe0oG8Btoq",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "cat",
+                "en kat",
+                "<img src=\"adorable-animal-blur-cat-617278.jpg\" class=\"\" style=\"height: 1064px; width: 1606px;\">",
+                "",
+                "cats",
+                "cats",
+                "the cats"
+            ],
+            "flags": 0,
+            "guid": "P|`HTQI*<X",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fish",
+                "en fisk",
+                "<img src=\"pexels-photo-128756.jpeg\" class=\"\" style=\"height: 750px; width: 1125px;\">",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QEpw0arZHc",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Animal",
+                "Food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "banana",
+                "en banan",
+                "<img src=\"yellow-banana-on-hand-2280926.jpg\" class=\"\" style=\"\">",
+                "[sound:pronunciation_da_banan.mp3]",
+                "bananer",
+                "baneneret",
+                "bananet"
+            ],
+            "flags": 0,
+            "guid": "g~Rt9&tK4u",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "dog",
+                "en hund",
+                "<img src=\"adorable-animal-canine-cute-220938.jpg\" class=\"\" style=\"height: 928px; width: 670px;\">",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yPp[%3t8JZ",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "cow",
+                "en ko",
+                "<img src=\"pexels-photo-422218.jpeg\" class=\"\" style=\"height: 709px; width: 1260px;\">",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z@<xt0ALp>",
+            "note_model_uuid": "3cc64d88-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": [
+                "Animal",
+                "Food"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "to drink",
+                "at drikke",
+                "<img src=\"woman-drinking-water-1458671.jpg\" class=\"\" style=\"\">",
+                "",
+                "drikker",
+                "drikkede",
+                "har drikket"
+            ],
+            "flags": 0,
+            "guid": "fKOoDXEx6F",
+            "note_model_uuid": "3cc64dd6-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "to eat",
+                "at spise",
+                "<img src=\"adult-bowl-brunette-eat-1153371.jpg\" class=\"\" style=\"\">",
+                "",
+                "spiser",
+                "spiste",
+                "har spiste"
+            ],
+            "flags": 0,
+            "guid": "oWi02n5KN>",
+            "note_model_uuid": "3cc64dd6-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "to learn",
+                "at lære",
+                "<img src=\"man-holding-book-2781195.jpg\" class=\"\" style=\"\">",
+                "[sound:pronunciation_da_lære.mp3]",
+                "lærer",
+                "lærte",
+                "har lært"
+            ],
+            "flags": 0,
+            "guid": "wR4a.^i#Nz",
+            "note_model_uuid": "3cc64dd6-e410-11e9-960e-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "healthy",
+                "rask",
+                "<img src=\"top-view-photo-of-food-dessert-1099680.jpg\" class=\"\" style=\"\"><img src=\"women-s-white-top-and-orange-floral-skirt-823694.jpg\" class=\"\" style=\"\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B<h2E[~=lh",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "tired",
+                "træt",
+                "<img src=\"woman-working-girl-sitting-133021.jpg\" class=\"\" style=\"\"><img src=\"alone-bed-bedroom-blur-271897.jpg\" class=\"\" style=\"\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H&F*v7O;%g",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "mouse",
+                "en mus",
+                "<img src=\"animal-cute-little-mouse-301448.jpg\" class=\"\" style=\"height: 1124px; width: 1606px;\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g+fae;q(.R",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "pig",
+                "et svin",
+                "<img src=\"farm-farmer-pink-ears-110820.jpg\" class=\"\" style=\"\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r`}{0TVY{*",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "you",
+                "du",
+                "<img src=\"woman-in-black-long-sleeved-shirt-905947.jpg\" class=\"\" style=\"height: 1005px; width: 670px;\">",
+                "[sound:pronunciation_da_du.mp3]"
+            ],
+            "flags": 0,
+            "guid": "uz1+QG20d]",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "horse",
+                "en hest",
+                "<img src=\"animal-animal-photography-close-up-countryside-1996333.jpg\" class=\"\" style=\"height: 1070px; width: 1606px;\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wNvM-%`2(w",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        }
+    ]
+}
