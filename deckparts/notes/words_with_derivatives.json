@@ -1,235 +1,215 @@
 {
     "_flags": {
         "extract_shared_tags": false,
-        "group_by_note_model": false
+        "group_by_note_model": true
     },
-    "notes": [
-        {
-            "fields": [
-                "bird",
-                "en fugl",
-                "<img src=\"animal-avian-beak-bird-416179.jpg\" class=\"\" style=\"\">",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "guid": "Fe0oG8Btoq",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "cat",
-                "en kat",
-                "<img src=\"adorable-animal-blur-cat-617278.jpg\" class=\"\" style=\"height: 1064px; width: 1606px;\">",
-                "",
-                "cats",
-                "cats",
-                "the cats"
-            ],
-            "guid": "P|`HTQI*<X",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "fish",
-                "en fisk",
-                "<img src=\"pexels-photo-128756.jpeg\" class=\"\" style=\"height: 750px; width: 1125px;\">",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "guid": "QEpw0arZHc",
-            "newlyAdded": false,
-            "tags": [
-                "Animal",
-                "Food"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "banana",
-                "en banan",
-                "<img src=\"yellow-banana-on-hand-2280926.jpg\" class=\"\" style=\"\">",
-                "[sound:pronunciation_da_banan.mp3]",
-                "bananer",
-                "baneneret",
-                "bananet"
-            ],
-            "guid": "g~Rt9&tK4u",
-            "newlyAdded": false,
-            "tags": [
-                "Food"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "dog",
-                "en hund",
-                "<img src=\"adorable-animal-canine-cute-220938.jpg\" class=\"\" style=\"height: 928px; width: 670px;\">",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "guid": "yPp[%3t8JZ",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "cow",
-                "en ko",
-                "<img src=\"pexels-photo-422218.jpeg\" class=\"\" style=\"height: 709px; width: 1260px;\">",
-                "",
-                "",
-                "",
-                ""
-            ],
-            "guid": "z@<xt0ALp>",
-            "newlyAdded": false,
-            "tags": [
-                "Animal",
-                "Food"
-            ],
-            "note_model": "LL Noun"
-        },
-        {
-            "fields": [
-                "to drink",
-                "at drikke",
-                "<img src=\"woman-drinking-water-1458671.jpg\" class=\"\" style=\"\">",
-                "",
-                "drikker",
-                "drikkede",
-                "har drikket"
-            ],
-            "guid": "fKOoDXEx6F",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Verb"
-        },
-        {
-            "fields": [
-                "to eat",
-                "at spise",
-                "<img src=\"adult-bowl-brunette-eat-1153371.jpg\" class=\"\" style=\"\">",
-                "",
-                "spiser",
-                "spiste",
-                "har spiste"
-            ],
-            "guid": "oWi02n5KN>",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Verb"
-        },
-        {
-            "fields": [
-                "to learn",
-                "at lære",
-                "<img src=\"man-holding-book-2781195.jpg\" class=\"\" style=\"\">",
-                "[sound:pronunciation_da_lære.mp3]",
-                "lærer",
-                "lærte",
-                "har lært"
-            ],
-            "guid": "wR4a.^i#Nz",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Verb"
-        },
-        {
-            "fields": [
-                "healthy",
-                "rask",
-                "<img src=\"top-view-photo-of-food-dessert-1099680.jpg\" class=\"\" style=\"\"><img src=\"women-s-white-top-and-orange-floral-skirt-823694.jpg\" class=\"\" style=\"\">",
-                ""
-            ],
-            "guid": "B<h2E[~=lh",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Word"
-        },
-        {
-            "fields": [
-                "tired",
-                "træt",
-                "<img src=\"woman-working-girl-sitting-133021.jpg\" class=\"\" style=\"\"><img src=\"alone-bed-bedroom-blur-271897.jpg\" class=\"\" style=\"\">",
-                ""
-            ],
-            "guid": "H&F*v7O;%g",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Word"
-        },
-        {
-            "fields": [
-                "mouse",
-                "en mus",
-                "<img src=\"animal-cute-little-mouse-301448.jpg\" class=\"\" style=\"height: 1124px; width: 1606px;\">",
-                ""
-            ],
-            "guid": "g+fae;q(.R",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Word"
-        },
-        {
-            "fields": [
-                "pig",
-                "et svin",
-                "<img src=\"farm-farmer-pink-ears-110820.jpg\" class=\"\" style=\"\">",
-                ""
-            ],
-            "guid": "r`}{0TVY{*",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Word"
-        },
-        {
-            "fields": [
-                "you",
-                "du",
-                "<img src=\"woman-in-black-long-sleeved-shirt-905947.jpg\" class=\"\" style=\"height: 1005px; width: 670px;\">",
-                "[sound:pronunciation_da_du.mp3]"
-            ],
-            "guid": "uz1+QG20d]",
-            "newlyAdded": false,
-            "tags": [],
-            "note_model": "LL Word"
-        },
-        {
-            "fields": [
-                "horse",
-                "en hest",
-                "<img src=\"animal-animal-photography-close-up-countryside-1996333.jpg\" class=\"\" style=\"height: 1070px; width: 1606px;\">",
-                ""
-            ],
-            "guid": "wNvM-%`2(w",
-            "newlyAdded": false,
-            "tags": [
-                "Animal"
-            ],
-            "note_model": "LL Word"
-        }
-    ]
+    "LL Noun": {
+        "notes": [
+            {
+                "fields": [
+                    "bird",
+                    "en fugl",
+                    "<img src=\"animal-avian-beak-bird-416179.jpg\" class=\"\" style=\"\">",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "guid": "Fe0oG8Btoq",
+                "tags": [
+                    "Animal"
+                ]
+            },
+            {
+                "fields": [
+                    "cat",
+                    "en kat",
+                    "<img src=\"adorable-animal-blur-cat-617278.jpg\" class=\"\" style=\"height: 1064px; width: 1606px;\">",
+                    "",
+                    "cats",
+                    "cats",
+                    "the cats"
+                ],
+                "guid": "P|`HTQI*<X",
+                "tags": [
+                    "Animal"
+                ]
+            },
+            {
+                "fields": [
+                    "fish",
+                    "en fisk",
+                    "<img src=\"pexels-photo-128756.jpeg\" class=\"\" style=\"height: 750px; width: 1125px;\">",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "guid": "QEpw0arZHc",
+                "tags": [
+                    "Animal",
+                    "Food"
+                ]
+            },
+            {
+                "fields": [
+                    "banana",
+                    "en banan",
+                    "<img src=\"yellow-banana-on-hand-2280926.jpg\" class=\"\" style=\"\">",
+                    "[sound:pronunciation_da_banan.mp3]",
+                    "bananer",
+                    "baneneret",
+                    "bananet"
+                ],
+                "guid": "g~Rt9&tK4u",
+                "tags": [
+                    "Food"
+                ]
+            },
+            {
+                "fields": [
+                    "dog",
+                    "en hund",
+                    "<img src=\"adorable-animal-canine-cute-220938.jpg\" class=\"\" style=\"height: 928px; width: 670px;\">",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "guid": "yPp[%3t8JZ",
+                "tags": [
+                    "Animal"
+                ]
+            },
+            {
+                "fields": [
+                    "cow",
+                    "en ko",
+                    "<img src=\"pexels-photo-422218.jpeg\" class=\"\" style=\"height: 709px; width: 1260px;\">",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "guid": "z@<xt0ALp>",
+                "tags": [
+                    "Animal",
+                    "Food"
+                ]
+            }
+        ]
+    },
+    "LL Verb": {
+        "notes": [
+            {
+                "fields": [
+                    "to drink",
+                    "at drikke",
+                    "<img src=\"woman-drinking-water-1458671.jpg\" class=\"\" style=\"\">",
+                    "",
+                    "drikker",
+                    "drikkede",
+                    "har drikket"
+                ],
+                "guid": "fKOoDXEx6F",
+                "tags": []
+            },
+            {
+                "fields": [
+                    "to eat",
+                    "at spise",
+                    "<img src=\"adult-bowl-brunette-eat-1153371.jpg\" class=\"\" style=\"\">",
+                    "",
+                    "spiser",
+                    "spiste",
+                    "har spiste"
+                ],
+                "guid": "oWi02n5KN>",
+                "tags": []
+            },
+            {
+                "fields": [
+                    "to learn",
+                    "at lære",
+                    "<img src=\"man-holding-book-2781195.jpg\" class=\"\" style=\"\">",
+                    "[sound:pronunciation_da_lære.mp3]",
+                    "lærer",
+                    "lærte",
+                    "har lært"
+                ],
+                "guid": "wR4a.^i#Nz",
+                "tags": []
+            }
+        ]
+    },
+    "LL Word": {
+        "notes": [
+            {
+                "fields": [
+                    "healthy",
+                    "rask",
+                    "<img src=\"top-view-photo-of-food-dessert-1099680.jpg\" class=\"\" style=\"\"><img src=\"women-s-white-top-and-orange-floral-skirt-823694.jpg\" class=\"\" style=\"\">",
+                    ""
+                ],
+                "guid": "B<h2E[~=lh",
+                "tags": []
+            },
+            {
+                "fields": [
+                    "tired",
+                    "træt",
+                    "<img src=\"woman-working-girl-sitting-133021.jpg\" class=\"\" style=\"\"><img src=\"alone-bed-bedroom-blur-271897.jpg\" class=\"\" style=\"\">",
+                    ""
+                ],
+                "guid": "H&F*v7O;%g",
+                "tags": []
+            },
+            {
+                "fields": [
+                    "mouse",
+                    "en mus",
+                    "<img src=\"animal-cute-little-mouse-301448.jpg\" class=\"\" style=\"height: 1124px; width: 1606px;\">",
+                    ""
+                ],
+                "guid": "g+fae;q(.R",
+                "tags": [
+                    "Animal"
+                ]
+            },
+            {
+                "fields": [
+                    "pig",
+                    "et svin",
+                    "<img src=\"farm-farmer-pink-ears-110820.jpg\" class=\"\" style=\"\">",
+                    ""
+                ],
+                "guid": "r`}{0TVY{*",
+                "tags": [
+                    "Animal"
+                ]
+            },
+            {
+                "fields": [
+                    "you",
+                    "du",
+                    "<img src=\"woman-in-black-long-sleeved-shirt-905947.jpg\" class=\"\" style=\"height: 1005px; width: 670px;\">",
+                    "[sound:pronunciation_da_du.mp3]"
+                ],
+                "guid": "uz1+QG20d]",
+                "tags": []
+            },
+            {
+                "fields": [
+                    "horse",
+                    "en hest",
+                    "<img src=\"animal-animal-photography-close-up-countryside-1996333.jpg\" class=\"\" style=\"height: 1070px; width: 1606px;\">",
+                    ""
+                ],
+                "guid": "wNvM-%`2(w",
+                "tags": [
+                    "Animal"
+                ]
+            }
+        ]
+    }
 }
