@@ -1,0 +1,285 @@
+{
+    "_flags": {
+        "extract_shared_tags": false,
+        "group_by_note_model": true
+    },
+    "LL Noun": {
+        "notes": [
+            {
+                "fields": [
+                    "bird",
+                    "en fugl",
+                    "birdo",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "Fe0oG8Btoq",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "banana",
+                    "en banan",
+                    "banano",
+                    false,
+                    false,
+                    "[sound:pronunciation_da_banan.mp3]",
+                    "",
+                    "bananer",
+                    "baneneret",
+                    "bananet",
+                    false
+                ],
+                "guid": "g~Rt9&tK4u",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "cat",
+                    "en kat",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "cats",
+                    "cats",
+                    "the cats",
+                    false
+                ],
+                "guid": "P|`HTQI*<X",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "fish",
+                    "en fisk",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "QEpw0arZHc",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "dog",
+                    "en hund",
+                    "hundo",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "yPp[%3t8JZ",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "cow",
+                    "en ko",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "z@<xt0ALp>",
+                "tags": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "LL Verb": {
+        "notes": [
+            {
+                "fields": [
+                    "to drink",
+                    "at drikke",
+                    "drinki",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "drikker",
+                    "drikkede",
+                    "har drikket",
+                    false
+                ],
+                "guid": "fKOoDXEx6F",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "to eat",
+                    "at spise",
+                    "manĝi",
+                    false,
+                    false,
+                    "",
+                    "",
+                    "spiser",
+                    "spiste",
+                    "har spiste",
+                    false
+                ],
+                "guid": "oWi02n5KN>",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "to learn",
+                    "at lære",
+                    "lerni",
+                    false,
+                    false,
+                    "[sound:pronunciation_da_lære.mp3]",
+                    "",
+                    "lærer",
+                    "lærte",
+                    "har lært",
+                    false
+                ],
+                "guid": "wR4a.^i#Nz",
+                "tags": [
+                    ""
+                ]
+            }
+        ]
+    },
+    "LL Word": {
+        "notes": [
+            {
+                "fields": [
+                    "healthy",
+                    "rask",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "B<h2E[~=lh",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "mouse",
+                    "en mus",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "g+fae;q(.R",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "tired",
+                    "træt",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "H&F*v7O;%g",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "pig",
+                    "et svin",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "r`}{0TVY{*",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "you",
+                    "du",
+                    "vi",
+                    false,
+                    false,
+                    "[sound:pronunciation_da_du.mp3]",
+                    "",
+                    false
+                ],
+                "guid": "uz1+QG20d]",
+                "tags": [
+                    ""
+                ]
+            },
+            {
+                "fields": [
+                    "horse",
+                    "en hest",
+                    "",
+                    false,
+                    false,
+                    "",
+                    "",
+                    false
+                ],
+                "guid": "wNvM-%`2(w",
+                "tags": [
+                    ""
+                ]
+            }
+        ]
+    }
+}

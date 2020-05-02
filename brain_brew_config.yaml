@@ -1,0 +1,31 @@
+
+# Location of built parts that form a deck
+deck_parts:
+  headers: deckparts/headers/
+  note_models: deckparts/notemodels/
+  notes: deckparts/notes/
+  # Top level folder containing media, searched recursively
+  # Media inside here may be structured in any manor in any level of sub folders, and their position will be preserved
+  # However no two files may share the same name
+  media_files: deckparts/media/
+
+  # Flags for Deck Part Notes
+  # Changes how they are structured when saved
+  deck_part_notes_structure:
+    # Group together notes which share the same note model
+    group_by_note_model: no
+
+    # Common tags will be extracted and placed on the top level, to reduce file size
+    extract_shared_tags: no
+
+# General Flags
+flags:
+  # List of deck_part fields to sort by
+  # Currently supported: 'note_model_name', 'guid', 'tags'
+  note_sort_order: []
+
+  # Reverse sorting after previous step
+  reverse_sort: no
+
+  # Ignore case for all sorting
+  sort_case_insensitive: yes
