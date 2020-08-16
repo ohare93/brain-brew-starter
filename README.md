@@ -5,9 +5,13 @@ A full working repo using [Brain Brew](https://github.com/ohare93/brain-brew) :+
 ## Install steps 
 
 1. Clone or fork repo
+1. Install general requirements
+    1. Python 3.7+
+    1. Pip
+    1. Pipenv
 1. Create a new pipenv using the provided Pipfile with `pipenv install`. This will install [Brain Brew from PyPi](https://pypi.org/project/Brain-Brew/) and it's requirements.
 (Note, you can simply run `pip install brain-brew` instead if you wish, but a virtual environment is recommended)
-
+    1. Enter the virtual environment with `pipenv shell` if need be, in order to run the next steps.
 
 ## Running Brain Brew
 
