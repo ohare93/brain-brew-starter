@@ -1,0 +1,143 @@
+
+- generate_guids_in_csv:
+    source: src/data/words.csv
+    columns: [ guid ]
+
+- build_parts:
+  - note_model_templates_from_html:
+      - part_id: Comprehension
+        html_file: src/note_models/templates/Comprehension.html
+      - part_id: Production
+        html_file: src/note_models/templates/Production.html
+      - part_id: Spelling
+        html_file: src/note_models/templates/Spelling.html
+      - part_id: Conjugation
+        html_file: src/note_models/templates/Conjugation.html
+
+  - note_model_from_html_parts:
+      part_id: LL Word
+      model_name: LL Word
+      model_id: 057a8d66-bc4e-11e9-9822-d8cb8ac9abf0
+      css_file: &Css_File src/note_models/style.css
+      fields:
+        - &Field_English
+          name: English
+          font_size: 12
+        - &Field_Word
+          name: Word
+        - &Field_Picture
+          name: Picture
+          font: Arial
+          font_size: 6
+        - &Field_Pronunciation
+          name: Pronunciation (Recording and/or IPA)
+      templates:
+        - Comprehension
+        - Production
+        - Spelling
+
+  - note_model_from_html_parts:
+      part_id: LL Noun
+      model_name: LL Noun
+      model_id: 3cc64d88-e410-11e9-960e-d8cb8ac9abf0
+      css_file: *Css_File
+      fields:
+        - *Field_English
+        - *Field_Word
+        - *Field_Picture
+        - *Field_Pronunciation
+        - name: Plural
+        - name: Indefinite Plural
+        - name: Definite Plural
+      templates:
+        - Comprehension
+        - Production
+        - Spelling
+
+  - note_model_from_html_parts:
+      part_id: LL Verb
+      model_name: LL Verb
+      model_id: 3cc64dd6-e410-11e9-960e-d8cb8ac9abf0
+      css_file: *Css_File
+      fields:
+        - *Field_English
+        - *Field_Word
+        - *Field_Picture
+        - *Field_Pronunciation
+        - name: Form Present
+        - name: Form Past
+        - name: Form Perfect Present
+      templates:
+        - Comprehension
+        - Production
+        - Spelling
+        - Conjugation
+
+  - headers_from_yaml_part:
+      part_id: default header
+      file: src/headers/default.yaml
+      override:
+        deck_description_html_file: src/headers/desc.html
+
+  - media_group_from_folder:
+      part_id: all_media
+      source: src/media
+      recursive: true
+
+
+  - notes_from_csvs:
+      part_id: english-to-danish
+      # save_to_file: src/notes/english-to-danish.yaml
+
+      note_model_mappings:
+        - note_models:
+            - LL Word
+            - LL Verb
+            - LL Noun
+          columns_to_fields:
+            guid: guid
+            tags: tags
+
+            english: English
+            danish: Word
+            picture: Picture
+            danish audio: Pronunciation (Recording and/or IPA)
+
+            present: Form Present
+            past: Form Past
+            present perfect: Form Perfect Present
+
+            plural: Plural
+            indefinite plural: Indefinite Plural
+            definite plural: Definite Plural
+
+          personal_fields: [ ]
+
+      file_mappings:
+        - file: src/data/words.csv
+          note_model: LL Word
+
+          derivatives:
+            - file: src/data/derivatives/nouns.csv
+              note_model: LL Noun
+            - file: src/data/derivatives/verbs.csv
+              note_model: LL Verb
+
+
+- generate_crowd_anki:
+    headers: default header
+
+    media:
+      parts: [all_media]
+
+    note_models:
+      parts:
+        - part_id: LL Noun
+        - part_id: LL Verb
+        - part_id: LL Word
+
+    folder: build/General-With-Derivatives
+
+    notes:
+      part_id: english-to-danish
+      sort_order: [guid]

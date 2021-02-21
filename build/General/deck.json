@@ -54,7 +54,7 @@
             "timer": 0
         }
     ],
-    "desc": "",
+    "desc": "<b>This is my deck.</b> There are many like it, but this one is mine.",
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
@@ -85,7 +85,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.word {\n font-size:1.5em;\n}\n\n.pronunciation{\n color:blue;\n}",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.word {\n font-size:1.5em;\n}\n\n.pronunciation{\n color:blue;\n}\n\n.smallimage img {\n max-width:15em;\n box-shadow: none;\n}\n\n.important {\n color:yellow;\n}",
             "flds": [
                 {
                     "font": "Liberation Sans",
@@ -127,39 +127,12 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "name": "LL Word",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        1
-                    ]
-                ],
-                [
-                    1,
-                    "all",
-                    [
-                        1,
-                        2
-                    ]
-                ],
-                [
-                    2,
-                    "all",
-                    [
-                        1,
-                        2
-                    ]
-                ]
-            ],
+            "req": [],
             "sortf": 0,
-            "tags": [
-                "LL::Grammar::Preposition",
-                "Meta::InProgress"
-            ],
+            "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
@@ -177,7 +150,7 @@
                     "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
@@ -219,53 +192,6 @@
             "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
             "tags": [
                 "Animal"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "tired",
-                "træt",
-                "<img src=\"woman-working-girl-sitting-133021.jpg\" class=\"\" style=\"\"><img src=\"alone-bed-bedroom-blur-271897.jpg\" class=\"\" style=\"\">",
-                ""
-            ],
-            "flags": 0,
-            "guid": "H&F*v7O;%g",
-            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "cat",
-                "en kat",
-                "<img src=\"adorable-animal-blur-cat-617278.jpg\" class=\"\" style=\"height: 1064px; width: 1606px;\">",
-                ""
-            ],
-            "flags": 0,
-            "guid": "P|`HTQI*<X",
-            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
-            "tags": [
-                "Animal"
-            ]
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "fish",
-                "en fisk",
-                "<img src=\"pexels-photo-128756.jpeg\" class=\"\" style=\"height: 750px; width: 1125px;\">",
-                ""
-            ],
-            "flags": 0,
-            "guid": "QEpw0arZHc",
-            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
-            "tags": [
-                "Animal",
-                "Food"
             ]
         },
         {
@@ -318,6 +244,20 @@
             "__type__": "Note",
             "data": "",
             "fields": [
+                "tired",
+                "træt",
+                "<img src=\"woman-working-girl-sitting-133021.jpg\" class=\"\" style=\"\"><img src=\"alone-bed-bedroom-blur-271897.jpg\" class=\"\" style=\"\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H&F*v7O;%g",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
                 "to eat",
                 "at spise",
                 "<img src=\"adult-bowl-brunette-eat-1153371.jpg\" class=\"\" style=\"\">",
@@ -327,6 +267,39 @@
             "guid": "oWi02n5KN>",
             "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "cat",
+                "en kat",
+                "<img src=\"adorable-animal-blur-cat-617278.jpg\" class=\"\" style=\"height: 1064px; width: 1606px;\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P|`HTQI*<X",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": [
+                "Animal"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fish",
+                "en fisk",
+                "<img src=\"pexels-photo-128756.jpeg\" class=\"\" style=\"height: 750px; width: 1125px;\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QEpw0arZHc",
+            "note_model_uuid": "057a8d66-bc4e-11e9-9822-d8cb8ac9abf0",
+            "tags": [
+                "Animal",
+                "Food"
+            ]
         },
         {
             "__type__": "Note",

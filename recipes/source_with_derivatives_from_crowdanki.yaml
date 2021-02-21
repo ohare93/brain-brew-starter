@@ -1,0 +1,65 @@
+- build_parts:
+  - notes_from_crowd_anki:
+      source: &deck_name build/General-With-Derivatives/
+      part_id: standard notes
+      sort_order: [Country]
+
+  - note_models_from_crowd_anki:
+    - source: *deck_name
+      part_id: LL Word
+    - source: *deck_name
+      part_id: LL Noun
+    - source: *deck_name
+      part_id: LL Verb
+
+  - headers_from_crowd_anki:
+    - source: *deck_name
+      part_id: default
+      save_to_file: src/headers/default.yaml
+
+  - media_group_from_crowd_anki:
+    - source: *deck_name
+      part_id: all_media
+
+  - save_media_group_to_folder:
+      parts: [all_media]
+      folder: src/media
+      clear_folder: false
+      recursive: true
+
+- generate_csvs:
+    notes: standard notes
+
+    note_model_mappings:
+      - note_models:
+          - LL Word
+          - LL Verb
+          - LL Noun
+        columns_to_fields:
+          guid: guid
+          tags: tags
+
+          english: English
+          danish: Word
+          picture: Picture
+          danish audio: Pronunciation (Recording and/or IPA)
+
+          present: Form Present
+          past: Form Past
+          present perfect: Form Perfect Present
+
+          plural: Plural
+          indefinite plural: Indefinite Plural
+          definite plural: Definite Plural
+
+        personal_fields: [ ]
+
+    file_mappings:
+      - file: src/data/words.csv
+        note_model: LL Word
+
+        derivatives:
+          - file: src/data/derivatives/nouns.csv
+            note_model: LL Noun
+          - file: src/data/derivatives/verbs.csv
+            note_model: LL Verb
