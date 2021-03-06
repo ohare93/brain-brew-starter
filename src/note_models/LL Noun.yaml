@@ -1,0 +1,22 @@
+name: LL Noun
+id: 3cc64d88-e410-11e9-960e-d8cb8ac9abf0
+css_file: src/note_models/style.css
+fields:
+  - name: English
+    font_size: 12
+  - name: Word
+  - name: Picture
+    font: Arial
+    font_size: 6
+  - name: Pronunciation (Recording and/or IPA)
+
+  - name: Plural
+  - name: Indefinite Plural
+  - name: Definite Plural
+templates:
+  - name: Comprehension
+    html_file: src/note_models/templates/Comprehension.html
+  - name: Production
+    html_file: src/note_models/templates/Production.html
+  - name: Spelling
+    html_file: src/note_models/templates/Spelling.html

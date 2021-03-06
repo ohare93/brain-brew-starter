@@ -6,7 +6,7 @@
 - build_parts:
   - note_model_from_yaml_part:
       part_id: LL Word
-      file: src/note_models/LL Word/LL Word.yaml
+      file: src/note_models/LL Word.yaml
 
   - headers_from_yaml_part:
       part_id: default header

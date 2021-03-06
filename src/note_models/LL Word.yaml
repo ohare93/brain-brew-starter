@@ -1,6 +1,6 @@
 name: LL Word
 id: 057a8d66-bc4e-11e9-9822-d8cb8ac9abf0
-css_file: src/note_models/LL Word/style.css
+css_file: src/note_models/style.css
 fields:
   - name: English
     font_size: 12
@@ -11,8 +11,8 @@ fields:
   - name: Pronunciation (Recording and/or IPA)
 templates:
   - name: Comprehension
-    html_file: src/note_models/LL Word/Comprehension.html
+    html_file: src/note_models/templates/Comprehension.html
   - name: Production
-    html_file: src/note_models/LL Word/Production.html
+    html_file: src/note_models/templates/Production.html
   - name: Spelling
-    html_file: src/note_models/LL Word/Spelling.html
+    html_file: src/note_models/templates/Spelling.html

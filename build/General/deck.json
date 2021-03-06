@@ -132,7 +132,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
@@ -141,7 +141,7 @@
                     "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
