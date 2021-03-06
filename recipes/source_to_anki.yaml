@@ -4,31 +4,9 @@
     columns: [ guid ]
 
 - build_parts:
-  - note_model_templates_from_html:
-      - part_id: Comprehension
-        html_file: src/note_models/templates/Comprehension.html
-      - part_id: Production
-        html_file: src/note_models/templates/Production.html
-      - part_id: Spelling
-        html_file: src/note_models/templates/Spelling.html
-
-  - note_model_from_html_parts:
+  - note_model_from_yaml_part:
       part_id: LL Word
-      model_name: LL Word
-      model_id: 057a8d66-bc4e-11e9-9822-d8cb8ac9abf0
-      css_file: src/note_models/style.css
-      fields:
-        - name: English
-          font_size: 12
-        - name: Word
-        - name: Picture
-          font: Arial
-          font_size: 6
-        - name: Pronunciation (Recording and/or IPA)
-      templates:
-        - Comprehension
-        - Production
-        - Spelling
+      file: src/note_models/LL Word/LL Word.yaml
 
   - headers_from_yaml_part:
       part_id: default header
