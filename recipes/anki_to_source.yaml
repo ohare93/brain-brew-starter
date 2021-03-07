@@ -2,7 +2,6 @@
   - notes_from_crowd_anki:
       source: &deck_name build/General/
       part_id: standard notes
-      sort_order: [Country]
 
   - note_models_from_crowd_anki:
     - source: *deck_name
