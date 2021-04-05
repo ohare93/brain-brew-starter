@@ -23,9 +23,9 @@ If you get use of out this project, or wish to see it progress, please do consid
 
 ## Running Brain Brew
 
-Brain Brew is run in the command line with `brain-brew` and takes a recipe file as an argument. 
+A Brain Brew recipe is run in the command line with `brainbrew run [recipe]` and takes a recipe file as an argument. 
 
-> brain-brew recipes/source_to_crowdanki.yaml
+> brainbrew run recipes/source_to_crowdanki.yaml
 
 Two sets of these recipes are provided in this repo under `recipes/`, each having their own export folder in `build/`.
 
@@ -38,37 +38,37 @@ Two sets of these recipes are provided in this repo under `recipes/`, each havin
 Each set contains a recipe to convert *from* or *to* a CrowdAnki file.
 
 
-## Importing your own cards
+## Setting up your own cards for Import/Export
 
-If your cards are simple enough, you should be able to the following to get your cards syncing:
+Change this repo to support your own flashcards! Simply follow these steps:
 
-1. Export your deck using CrowdAnki and place that export in the build folder
-1. Recipe changes:
-   1. Name of the Deck to import (to the deck created above)
-   1. Change all the note model
-      1. Names
-      1. Fields
-      1. Templates
-   1. Note Model Mapping
-      1. Columns_to_fields
-1. File changes
-   1. Csvs
-      1. Column headings
-      1. Delete the current data, if desired
-   1. Note Model files
-      1. Templates
-         1. Create new or edit the existing templates
-            1. Make sure the question at the top, and the answer at the bottom
-            1. Separated by `--` with empty lines before and after
-      1. Style.css
-         1. Make multiple, or have many note models share the same one
-   1. Media
-      1. Delete the existing media
-1. Run `brain-brew recipes/source_from_crowdanki.yaml -v` to verify the recipe is functional
-   1. Then remove the `-v` to run it properly
+1. Delete the following folders in this repo:
+   1. `/build`
+   1. `/recipes`
+   1. `/src`
 
-That should be it. Again, I am working on an easier way to set this up as a normal user :pray: 
-      
+1. Export your deck using CrowdAnki and place that export somewhere accessible
+   
+1. In the command line while in the main folder of this repo run `brainbrew init [Your CrowdAnki Export Folder]`
+   - This will generate the entire repo for you, including the recipe files, source files, and build folder
+
+1. Run `brainbrew run recipes/source_to_anki.yaml` to generate the deck in the `/build` folder
+
+Now you have a fully working repo :clap: If you experience any errors during this process,
+please [open an issue](https://github.com/ohare93/brain-brew/issues) (if one does not already exist).
+
+This init command is not smart when it comes to pairing note to use advanced features such as
+csvs derivatives shared note model templates/styling.
+It simply just gives you a working base, which can then be customised to a more advanced setup! :thumbsup: 
+
+#### Source -> Anki
+The deck in `/build/deck.json` should be identical to your original deck.
+Make changes in the csv files and run `source_to_anki` to update the crowdanki file.
+
+#### Anki -> Source
+Or make changes in Anki and export it back into source here by overwriting `build/deck.json`
+with a CrowdAnki export and run `anki_to_source` recipe to pull data back from
+
 
 ## Making new cards
 

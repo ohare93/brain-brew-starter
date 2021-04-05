@@ -4,7 +4,7 @@
       part_id: standard notes
       sort_order: [Country]
 
-  - note_models_from_crowd_anki:
+  - note_model_from_crowd_anki:
     - source: *deck_name
       part_id: LL Word
     - source: *deck_name
@@ -21,11 +21,11 @@
     - source: *deck_name
       part_id: all_media
 
-  - save_media_group_to_folder:
-      parts: [all_media]
-      folder: src/media
-      clear_folder: false
-      recursive: true
+- save_media_group_to_folder:
+    parts: [all_media]
+    folder: src/media
+    clear_folder: false
+    recursive: true
 
 - generate_csvs:
     notes: standard notes

@@ -1,0 +1,60 @@
+
+- generate_guids_in_csv:
+    source: src/data/words.csv
+    columns: [ guid ]
+
+- build_parts:
+  - note_model_from_yaml_part:
+      part_id: LL Word
+      file: src/note_models/LL Word.yaml
+
+  - headers_from_yaml_part:
+      part_id: default header
+      file: src/headers/default.yaml
+      override:
+        deck_description_html_file: src/headers/desc.html
+
+  - media_group_from_folder:
+      part_id: all_media
+      source: src/media
+      recursive: true
+
+
+  - notes_from_csvs:
+      part_id: english-to-danish
+      # save_to_file: src/notes/english-to-danish.yaml
+
+      note_model_mappings:
+        - note_models:
+            - LL Word
+          columns_to_fields:
+            guid: guid
+            tags: tags
+
+            english: English
+            danish: Word
+            picture: Picture
+            danish audio: Pronunciation (Recording and/or IPA)
+
+          personal_fields: [ ]
+
+      file_mappings:
+        - file: src/data/words.csv
+          note_model: LL Word
+
+
+- generate_crowd_anki:
+    headers: default header
+
+    media:
+      parts: [all_media]
+
+    note_models:
+      parts:
+        - part_id: LL Word
+
+    folder: build/General
+
+    notes:
+      part_id: english-to-danish
+      sort_order: [guid]

@@ -153,37 +153,47 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
             "name": "LL Noun",
             "req": [],
             "sortf": 0,
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Comprehension",
                     "ord": 0,
-                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Production",
                     "ord": 1,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Spelling",
                     "ord": 2,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 }
             ],
             "type": 0,
@@ -260,46 +270,59 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
             "name": "LL Verb",
             "req": [],
             "sortf": 0,
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Comprehension",
                     "ord": 0,
-                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Production",
                     "ord": 1,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Spelling",
                     "ord": 2,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
-                    "afmt": "<div class=smallimage>{{Picture}}</div>\nInfinitive: <span class=\"word\">{{Word}}</span><br>\nPresent: <span class=\"word important\">{{Form Present}}</span><br>\nPast: <span class=\"word important\">{{Form Past}}</span><br>\nPast Perfect: <span class=\"word important\">{{Form Perfect Present}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}\n",
+                    "afmt": "<div class=smallimage>{{Picture}}</div>\nInfinitive: <span class=\"word\">{{Word}}</span><br>\nPresent: <span class=\"word important\">{{Form Present}}</span><br>\nPast: <span class=\"word important\">{{Form Past}}</span><br>\nPast Perfect: <span class=\"word important\">{{Form Perfect Present}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<div class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</div>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Conjugation",
                     "ord": 3,
-                    "qfmt": "{{#Word}}{{#Form Present}}\n\t<div class=smallimage>{{Picture}}</div>\n\tInfinitive: <span class=\"word\">{{Word}}</span><br>\n\tPresent: <span class=\"word important\">___</span><br>\n\tPast: <span class=\"word important\">___</span><br>\n\tPast Perfect: <span class=\"word important\">___</span>\n{{/Form Present}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Form Present}}\n\t<div class=smallimage>{{Picture}}</div>\n\tInfinitive: <span class=\"word\">{{Word}}</span><br>\n\tPresent: <span class=\"word important\">___</span><br>\n\tPast: <span class=\"word important\">___</span><br>\n\tPast Perfect: <span class=\"word important\">___</span>\n{{/Form Present}}{{/Word}}",
+                    "scratchPad": 0
                 }
             ],
             "type": 0,
@@ -349,37 +372,47 @@
             ],
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
             "name": "LL Word",
             "req": [],
             "sortf": 0,
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Picture}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Comprehension",
                     "ord": 0,
-                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}"
+                    "qfmt": "{{#Word}}\n\t<span class=\"word\">{{Word}}</span>\n{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span class=\"word\">{{Word}}</span>\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Production",
                     "ord": 1,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n{{#Pronunciation (Recording and/or IPA)}}\n\t<br><span class=\"pronunciation\">{{Pronunciation (Recording and/or IPA)}}</span>\n{{/Pronunciation (Recording and/or IPA)}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
                     "name": "Spelling",
                     "ord": 2,
-                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}"
+                    "qfmt": "{{#Word}}{{#Picture}}\n\t<br>Spell this word:<br>\n\n\t<div class=\"word\">{{type:Word}}</div>\n\n\t<br>{{Picture}}\n{{/Picture}}{{/Word}}",
+                    "scratchPad": 0
                 }
             ],
             "type": 0,
