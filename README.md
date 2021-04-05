@@ -4,9 +4,7 @@
 <a title="Support a fellow Weekend Warrior on Patreon" href="https://www.patreon.com/jmohare?fan_landing=true"><img src="https://img.shields.io/badge/patreon-support-%23f96854.svg"></a>
 
 A full working repo using [Brain Brew](https://github.com/ohare93/brain-brew) :+1:
-This repo is for demonstration purposes, and gives a user an already working system to morph to fit their own needs.
-Though there are currently some difficulties in getting personal Note Models to sync here without the hassle of manual setup,
-an easier process should be coming soon:tm:!️
+This repo is for demonstration purposes, and gives a user an already working system to morph to fit their own needs
 
 If you get use of out this project, or wish to see it progress, please do consider supporting :pray:
 
