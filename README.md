@@ -23,7 +23,7 @@ If you get use of out this project, or wish to see it progress, please do consid
 
 A Brain Brew recipe is run in the command line with `brainbrew run [recipe]` and takes a recipe file as an argument. 
 
-> brainbrew run recipes/source_to_crowdanki.yaml
+> brainbrew run recipes/source_to_anki.yaml
 
 Two sets of these recipes are provided in this repo under `recipes/`, each having their own export folder in `build/`.
 
@@ -45,7 +45,8 @@ Change this repo to support your own flashcards! Simply follow these steps:
    1. `/recipes`
    1. `/src`
 
-1. Export your deck using CrowdAnki and place that export somewhere accessible
+1. Export your deck using [CrowdAnki](https://ankiweb.net/shared/info/1788670778) and place that export somewhere accessible
+   - Remember to restart Anki after installing
    
 1. In the command line while in the main folder of this repo run `brainbrew init [Your CrowdAnki Export Folder]`
    - This will generate the entire repo for you, including the recipe files, source files, and build folder
