@@ -1,4 +1,0 @@
-Brain-Brew==0.3.4
-ruamel.yaml==0.16.12
-ruamel.yaml.clib==0.2.2
-yamale==3.0.4
