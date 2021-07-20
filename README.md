@@ -4,7 +4,7 @@
 <a title="Support a fellow Weekend Warrior on Patreon" href="https://www.patreon.com/jmohare?fan_landing=true"><img src="https://img.shields.io/badge/patreon-support-%23f96854.svg"></a>
 
 A full working repo using [Brain Brew](https://github.com/ohare93/brain-brew) :+1:
-This repo is for demonstration purposes, and gives a user an already working system to morph to fit their own needs
+This repo is for demonstration purposes, and gives a user an already working system to morph to fit their own needs. Though if you already have some Anki cards to sync then it is easier to simply delete most of this repo and use brain-brew to create it from scratch. See the [seting up your own cards section](#setting-up-your-own-cards-for-importexport) below for more details.
 
 If you get use of out this project, or wish to see it progress, please do consider supporting :pray:
 
